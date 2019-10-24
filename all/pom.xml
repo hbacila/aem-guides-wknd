@@ -75,16 +75,6 @@
               <artifactId>aem-guides-wknd.ui.content</artifactId>
               <filter>true</filter>
             </subPackage>
-            <subPackage>
-              <groupId>com.adobe.cq</groupId>
-              <artifactId>core.wcm.components.all</artifactId>
-              <filter>true</filter>
-            </subPackage>
-            <subPackage>
-              <groupId>com.adobe.cq</groupId>
-              <artifactId>core.wcm.components.examples</artifactId>
-              <filter>true</filter>
-            </subPackage>
           </subPackages>
         </configuration>
       </plugin>
@@ -138,11 +128,6 @@
       <classifier>apis</classifier>
     </dependency>
 
-    <dependency>
-      <groupId>com.adobe.cq</groupId>
-      <artifactId>core.wcm.components.all</artifactId>
-      <type>zip</type>
-    </dependency>
     <dependency>
       <groupId>javax.jcr</groupId>
       <artifactId>jcr</artifactId>
